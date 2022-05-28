@@ -1,0 +1,21 @@
+.menu {
+  width: 70%;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+.heading,
+.subheading {
+  text-align: center;
+}
+
+.heading {
+  font-size: 2rem;
+}
+
+.item_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 1rem;
+}

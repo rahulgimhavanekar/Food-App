@@ -1,0 +1,43 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+  box-shadow: 0 0 4px 4px #ccc;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.description h5 {
+  font-weight: bold;
+  line-height: 1.4;
+  font-size: 1rem;
+}
+
+.picture {
+  padding: 0.5rem;
+  width: 150px;
+  height: 150px;
+  border-radius: 4px;
+}
+
+.actions button {
+  font: inherit;
+  background-color: #19e691;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  outline: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.actions button:hover {
+  background-color: rgba(25, 230, 145, 0.8);
+}
